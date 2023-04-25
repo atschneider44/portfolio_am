@@ -1,0 +1,21 @@
+.main-footer-section{
+padding-top: 0.3rem !important;
+background-color: rgb(26, 25, 25) !important;
+border-top: 3px solid white;
+}
+
+.connect-section{
+    background-color: black;
+    border-top: 3px solid white;
+    font: white !important;
+}
+
+.social-icons{
+  margin: 0 1vw 0 1vw;
+}
+
+.social-text{
+    margin-top: 5px;
+}
+
+

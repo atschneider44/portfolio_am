@@ -1,0 +1,72 @@
+.grid-container-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10vh;
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+.grid-item-about {
+  background-color: black;
+  border: 3px solid white;
+  font-size: 3vw;
+  text-align: left;
+}
+
+.aboutText {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding: 20px;
+}
+
+.anna-pic {
+  width: 100%;
+}
+
+.about-skills {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  color: black;
+  
+}
+
+.skills-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center !important;
+  margin-top: 4vh;
+  color: white;
+}
+
+.spacing {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding: 1rem;
+}
+
+.card-container {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  justify-content: center !important;
+  display: flex !important;
+}
+
+.about-resume {
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  color: black;
+}
+
+.contact-form {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.skill-bar-container {
+  margin: 1.5vw;
+  margin-bottom: 3vh;
+}

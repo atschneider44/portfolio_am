@@ -1,0 +1,143 @@
+.home-page {
+  height: 100vh;
+}
+
+.main-pic {
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 100;
+  font-family: "COCOGOOSE", sans-serif !important;
+  color: white !important;
+  width: 70vw;
+  text-align: center;
+}
+
+.Title {
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  font-family: "COCOGOOSE", sans-serif !important;
+  color: white !important;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.home-about-grid {
+  display: grid;
+  background-color: black;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 3px solid white;
+  margin: 0 5vw 0 5vw;
+}
+
+.home-about-grid-item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.home-about-grid-item2 {
+  display: flex;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row: 2;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-right: 5vw;
+}
+
+.home-about-grid-item3 {
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: 2;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-left: 5vw;
+}
+
+.home-about-grid-item4 {
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row: 1;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin: 0 5vw 0 5vw;
+  font-size: 1.5vw
+}
+
+.anna-pic {
+  width: 100%;
+}
+
+.button-home {
+  display: block;
+  height: auto;
+  width: 18vw;
+  font-size: 1.3vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+  color: black;
+  border: 2px solid #333;
+  letter-spacing: px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  padding: 0.5em;
+}
+
+.home-button-link {
+  text-decoration: none !important;
+}
+
+.button-home:hover {
+  background-color: #cccccc;
+}
+
+a:hover:after {
+  width: 100%;
+}
+
+.space-bottom {
+  height: 20vh;
+}
+
+.scroll-button {
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 85%;
+  left: 97%;
+  color: white !important;
+  font-size: 2vw;
+}
+
+.main-section-divider{
+  display: flex;
+  justify-content: center;
+  margin: 5vh 0 10vh 0;
+}
+
+.section-divider{
+  width: 30vw;
+}
+
+.main-section-divider-bottom{
+  display: flex;
+  justify-content: center;
+  margin: 10vh 0 10vh 0;
+}
+
+

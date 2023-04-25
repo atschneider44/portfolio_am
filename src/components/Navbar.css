@@ -1,0 +1,17 @@
+.navbar {
+  background-color: black;
+  flex-wrap: nowrap !important;
+  --bs-navbar-padding-y: 0 !important;
+  height: 8vh !important;
+}
+
+.anna-logo {
+  width: 30%;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: white !important;
+  white-space: nowrap;
+  font: 20vw !important;
+}

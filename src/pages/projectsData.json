@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Youth Work with Munincipality of Eindhoven and Garage2020",
+    "image": "../projectImages/garage2020.png",
+    "description": "Youth organisations have been noticing that there is a gap between youth workers and the youth on the online world. Garage2020 was bought on by the Municipality of Eindhoven to explore possible methods to bridge this gap. There are two main youth organisations that we are working with, Dynamo & Pitstop. Currently, we are on the research phase of our assignment, conducting literary and field research(interview with youth workers).",
+    "technologies": "User Research & Design | Figma | & more ",
+    "github": "none",
+    "deployed": "",
+    "bgcolor": "purple",
+    "id": "1",
+    "year": "Feburary 2023 - ongoing"
+  },
+
+  {
+    "title": "Internship at FontoXML",
+    "image": "../projectImages/fontologo.png",
+    "description": "My internship assignment at Fonto was to design and develop a concept for a help center for the end-users of their XML Editor. I worked with the Design Thinking Methodology and went through all phases of the process. I used many CMD methods for my empathise and defining phases such as competitor analysis, surveys, interviews, and many more. I created wireframes and prototypes using Figma, and lastly began developing the Help Center using React and CSS. This was a full time internship and lasted for about 5 months.  ",
+    "technologies": " User Research | UX Design | Figma | React",
+    "github": "https://github.com/mdyeates/bike-buddy",
+    "deployed": "https://norrinradd8.github.io/bike_buddy/",
+    "bgcolor": "orangered",
+    "id": "2",
+    "year": "September 2021 - January 2022"
+  },
+  {
+    "title": "Scout",
+    "image": "../projectImages/scout.png",
+    "technologies": "React | Node.js | MongoDB | AdobeXD",
+    "description": "Scout is a web application that was developed to facilitate the creation of project/class groups at Fontys for the ICT an Media Design program. Groups would be formed based on skills and preferences rather than forming them based on friends or at random. The app was primarily designed to be used as a mobile web application. The web application is a  MERN full stack (MongoDB, Express, React, Node.js). Other significant technologies that were implemented were Redux, Material UI, Heroku, and AdobeXD. ",
+    "github": "https://github.com/mdyeates/weather-app",
+    "deployed": "https://mdyeates.github.io/weather-app/",
+    "bgcolor": "yellow",
+    "id": "3",
+    "year": "September 2020 - January 2021"
+  },
+  {
+    "title": "Utimaco",
+    "image": "../projectImages/utimaco.png",
+    "technologies": "UX Design | Axure",
+    "description": "We created a new website architecture for Utimaco. The product owner for this project was the Lead at WEBBER, the development company that had made the Utimaco website. They had three separate websites for each of the companies sectors and wanted to see what design, sitemap, and information architecture that we could come up with for the unification of the three Utimaco websites. Axure was used to make the prototype of the new website.",
+  
+    "deployed": "https://drive.google.com/file/d/1_atUXTM-L9r4NccsrPaaWqPyNu37ftwH/view",
+    "bgcolor": "blue",
+    "id": "4",
+    "year": "October 2020"
+  },
+  {
+    "title": "HanTang Website",
+    "image": "../projectImages/hantang.png",
+    "technologies": "JS | HTML | CSS",
+    "description": "For this project, we designed a new website for HanTang Eindhoven Chinese School. I had the opportunity to work with a client directly at the school. They had an outdated website that also did not have many options for language. We designed a new website that implemented new features such as online enrolment, three language versions of the website, and integrating a calendar feature. The duration of the project was two months.",
+    "github": "https://github.com/mdyeates/coding-quiz",
+    "deployed": "http://i427704.hera.fhict.nl/index.html",
+    "bgcolor": "#f85781",
+    "id": "5",
+    "year": ""
+  }
+]

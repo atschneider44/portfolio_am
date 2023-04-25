@@ -1,0 +1,184 @@
+/* --- MOBILE STYLES --- */
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    margin-top: var(--spacing);
+    padding-bottom: var(--spacing);
+    
+  }
+  
+  .projectCard {
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    flex-direction: column;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  
+  .row {
+    padding:  0 4vw 5vh 4vw ;
+    margin: 0;
+  }
+  
+  .textWrap {
+    transition: all 0.9s ease-in-out;
+    z-index: 1;
+  }
+  
+  .projectLink {
+    text-decoration: none;
+  }
+  
+  .imageContainer img {
+    height: 12em;
+   
+    transition: all 1.3s ease-in-out;
+  }
+  
+  .tech {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  
+  .viewWork {
+    font-size: 14px;
+  }
+  
+  .projectTitle {
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .githubLink {
+    text-decoration: none;
+  }
+  
+  .projectCard::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0.3;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .closeModal {
+    width: 1.3vw;
+    margin: -3vh 0 2vh 25vw;
+    
+  }
+  
+  .closeModal:hover {
+    filter: brightness(100);
+  }
+  
+  .modalTitle {
+    text-align: center;
+    margin-bottom: 3vh;
+    color: white;
+  }
+  
+  .projectDescription {
+    margin-bottom: 3vh;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .button-projects {
+    font-size: 1vw;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border: 3px solid white;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+      5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    background-color: black;
+    margin: 2vh 0 2vh 0;
+  }
+  
+  .button-projects:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  
+  /* --- MEDIA QUEIRES --- */
+  
+  @media (min-width: 750px) {
+    .projectCard {
+      flex-direction: row;
+      padding: var(--sm-spacing) !important;
+      height: 350px;
+    }
+  
+    .portfolio {
+      padding-left: var(--spacing);
+      padding-right: var(--spacing);
+    }
+  
+    .imageContainer {
+      transform: translateX(30%);
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .projectCard:hover .imageContainer {
+      transform: translateX(-70%);
+    }
+  
+    .projectCard:hover .textWrap {
+      transform: translateX(-250%);
+    }
+  
+    .projectCard:hover::before {
+      opacity: 0;
+    }
+  
+    .projectCard:hover .imageContainer img {
+      scale: 1.4;
+    }
+  
+    .imageContainer {
+      transform: translateX(-10%);
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .textWrap {
+      text-shadow: none;
+    }
+  
+    .projectTitle {
+      font-size: 30px;
+      padding: 10px 0;
+    }
+  
+    .viewWork {
+      font-size: 16px;
+    }
+  
+    .tech {
+      font-size: 14px;
+    }
+  }
+
+ .projects-title{
+   padding: 14vh 0 6vh 0;
+ }
