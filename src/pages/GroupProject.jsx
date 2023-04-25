@@ -86,14 +86,24 @@ export default class GroupProject extends Component {
                     Testing Phase
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    activeClass="activesub"
+                    className="test1"
+                    to="element6"
+                    spy={true}
+                    smooth={true}
+                  >
+                    Reading Guide
+                  </Link>
+                </li>
               </ul>
             </div>
           </header>
         </div>
 
-        <Element name="element" className="sectiongroup project-title">
-          Group Project <br /> Connecting Youth Workers to the Online World{" "}
-          <br /> Garage2020 and the Municipality of Eindhoven
+        <Element name="element" className="sectiongroup project-title1">
+          Connecting Youth Workers to the Online World with Garage2020 and the Municipality of Eindhoven
         </Element>
         <Element name="element1" className="sectiongroup">
           <div className="project-title">Project Description</div>
@@ -270,12 +280,8 @@ export default class GroupProject extends Component {
                 like:
               </p>
               <ol>
-                <li>
-                The goals of the organization
-                </li>
-                <li>
-                For profit vs non profit organization
-                </li>
+                <li>The goals of the organization</li>
+                <li>For profit vs non profit organization</li>
               </ol>
             </div>
             <div className="projGrid4"></div>
@@ -290,6 +296,30 @@ export default class GroupProject extends Component {
         </Element>
         <Element name="element5" className="sectiongroup">
           Testing Phase - not yet completed
+        </Element>
+        <Element name="element6" className="sectiongroup">
+          <div className="project-title">Reading Guide</div>
+          <div className="projectsGrid">
+            <div className="projGridb1">
+              <p className="mainBodyText">
+                My Reading Guide for this project can be found by clicking the
+                button below!
+              </p>
+            </div>
+            <div className="projGridb1">
+              <div className="contact-form-grid-item-submit">
+                <a href="https://docs.google.com/document/d/1jmV1T667pl3RKBXl9KvDaNIDYxvI0KFuW8QyTTzBI6E/edit?usp=sharing">
+                  <button
+                    className="button-submit"
+                    type="submit"
+                    value="Reading Guide"
+                  >
+                    Reading Guide
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
         </Element>
         <FooterMain />
       </div>
